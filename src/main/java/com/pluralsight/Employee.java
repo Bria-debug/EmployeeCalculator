@@ -1,3 +1,5 @@
+package com.pluralsight;
+
 public class Employee {
     private int employeeId;
     private String employeeName;
@@ -42,7 +44,7 @@ public class Employee {
     public double getPayRate() {
         return payRate;
     }
-    public double getgrosspay(){
+    public double getGrossPay(){
         return hoursWorked * payRate;
 
 
